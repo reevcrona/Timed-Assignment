@@ -1,3 +1,37 @@
 .search-button{
     background-color: blue;
 }
+
+
+form{
+    width:100%;
+    max-width: 653px;
+    min-height: 63px;
+    background-color: white;
+    display: flex;
+    padding: 2px;
+}
+
+#search-input{
+   width: 100%;
+   max-width: 503px;
+}
+.search-button{
+    width: 153px;
+    min-height: 63px;
+    background-color: #5474FD;
+    border:none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    
+
+    
+
+
+}
