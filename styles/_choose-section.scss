@@ -77,7 +77,14 @@
     max-width: 350px;
     align-self: center;
 }
-
+@media screen and (max-width:852px){
+    .choose__main-container{
+        justify-content: center;
+    }
+    .choose__image-container{
+        display: none;
+    }
+}
 @media screen and (max-width:1104px){
     .choose__image-container{
         max-width: 350px;

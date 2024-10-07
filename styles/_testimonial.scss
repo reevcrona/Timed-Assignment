@@ -74,7 +74,27 @@
     width: 100%;
     max-width: 445px;
     min-height: 284px;
+    
 }
+
+@media screen and (max-width:724px) {
+    .testimonial__text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #333333;
+        width: 100%;
+        max-width: 450px;
+        min-height: 287px;
+        padding:0 0 0 31px;
+    }
+    .testimonial__text{
+        font-size: 13px;
+        max-width: 400px;
+        padding: 0 15px;
+    }
+}
+
 @media screen  and (max-width:1150px){
     .testimonial__content-container{
         flex-direction: column;

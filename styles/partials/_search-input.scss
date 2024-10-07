@@ -1,6 +1,4 @@
-.search-button{
-    background-color: blue;
-}
+
 
 
 form{
@@ -56,4 +54,12 @@ form{
 #button-icon{
     color: #FFFFFF;
     font-size: 14px;
+}
+
+@media screen and (max-width:672px) {
+    form{
+        
+        max-width: 450px;
+        
+    }
 }
