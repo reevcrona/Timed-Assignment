@@ -139,6 +139,17 @@
         margin: 0 20px;
     }
 }
+@media screen and (max-width:640px){
+    .spain__top-text-container{
+        max-width: 350px;
+    }
+    .spain__bottom-text-container{
+        max-width: 350px;
+    }
+    .spain__button{
+        margin-top: 20px;
+    }
+}
 
 }
 

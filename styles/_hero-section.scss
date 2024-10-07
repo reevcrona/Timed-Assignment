@@ -63,4 +63,18 @@
 #arrow-down{
     color: #FFFFFF;
 } 
+
+@media screen and (max-width:468px){
+    .hero__header{
+        font-size: 38px;
+        text-align: center;
+    }
+    .hero__subheader{
+        font-size: 16px;
+        text-align: center;
+    }
+    .hero__text-container{
+        padding: 0;
+    }
+}
 }

@@ -62,4 +62,11 @@ form{
         max-width: 450px;
         
     }
+    @media screen and (max-width:468px) {
+        form{
+            
+            max-width: 300px;
+            
+        }
+    }
 }
