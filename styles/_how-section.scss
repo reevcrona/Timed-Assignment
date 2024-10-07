@@ -1,0 +1,13 @@
+
+.how-section{
+    width: 100%;
+    max-width: 1773px;
+    min-height: 340px;
+    background-color: #333333;
+    &__svg-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+
+
+.spain-section{
+    width: 100%;
+    max-width: 1770px;
+    min-height: 1400px;
+    
+    
+    .spain__top-container{
+        width: 100%;
+        max-width: 1770px;
+        min-height: 700px;
+        background-image: url(/images/spain-section-top-img.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .spain__bottom-container{
+        width: 100%;
+        max-width: 1770px;
+        min-height: 700px;
+        background-image: url(/images/spain-section-bottom-img.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

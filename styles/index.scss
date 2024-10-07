@@ -1,8 +1,16 @@
-
+@import "hero-section";
+@import "choose-section";
+@import "how-section";
+@import "spain-section";
+@import "testimorial";
+@import "footer";
 
 body{
-    background-color: black;
-}
-h1{
-    color: white;
+   padding: 0;
+   box-sizing: border-box;
+   width: 100%;
+   max-width: 1773px;
+   margin: auto;
+   font-family: "Josefin Sans", sans-serif;
+
 }
