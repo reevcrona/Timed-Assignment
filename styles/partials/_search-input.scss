@@ -10,11 +10,23 @@ form{
     background-color: white;
     display: flex;
     padding: 2px;
+    margin-top: 48px;
 }
 
 #search-input{
    width: 100%;
    max-width: 503px;
+   border: none;
+}
+#search-input::placeholder{
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #999999;
 }
 .search-button{
     width: 153px;
@@ -29,9 +41,4 @@ form{
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 1.4px;
-    
-
-    
-
-
 }
