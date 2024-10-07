@@ -77,6 +77,13 @@
     max-width: 350px;
     align-self: center;
 }
+
+@media screen and (max-width:400px){
+    .choose__header{
+        font-size: 32px;
+    }
+}
+
 @media screen and (max-width:660px){
     .choose__text-container{
         max-width: 360px;
