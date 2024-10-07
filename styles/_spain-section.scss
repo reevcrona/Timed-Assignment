@@ -106,5 +106,25 @@
     max-width: 540px;
     min-height: 371px;
 }
+
+@media screen and (max-width:1160px){
+    .spain__top-container{
+        justify-content: start;
+    }
+    .spain__bottom-container{
+        justify-content: end;
+    }
+    .invis-container{
+        display: none;
+    }
+    .spain__top-text-container{
+        margin-left: 20px;
+    }
+    .spain__bottom-text-container{
+        margin-right: 20px;
+    }
+}
+
+
 }
 
