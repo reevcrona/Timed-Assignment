@@ -79,13 +79,7 @@
 
 @media screen and (max-width:724px) {
     .testimonial__text-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #333333;
-        width: 100%;
         max-width: 450px;
-        min-height: 287px;
         padding:0 0 0 31px;
     }
     .testimonial__text{
@@ -94,7 +88,25 @@
         padding: 0 15px;
     }
 }
-
+@media screen and (max-width:516px) {
+    .testimonial__content-img{
+        display: none;
+    }
+    .testimonial__text-container{
+        max-width: 280px;
+        min-height: 500px;
+        padding:0;
+    }
+    .testimonial__text{
+        font-size: 11px;
+        max-width: 270px;
+        padding: 0 15px;
+    }
+    .testimonial__header{
+        font-size: 28px;
+        text-align: center;
+    }
+}
 @media screen  and (max-width:1150px){
     .testimonial__content-container{
         flex-direction: column;

@@ -107,6 +107,7 @@
     min-height: 371px;
 }
 
+
 @media screen and (max-width:1160px){
     .spain__top-container{
         justify-content: start;
@@ -124,7 +125,20 @@
         margin-right: 20px;
     }
 }
-
+@media screen and (max-width:776px){
+    .spain__top-container{
+        justify-content: center;
+    }
+    .spain__bottom-container{
+        justify-content: center;
+    }
+    .spain__top-text-container{
+        margin: 0 20px;
+    }
+    .spain__bottom-text-container{
+        margin: 0 20px;
+    }
+}
 
 }
 
