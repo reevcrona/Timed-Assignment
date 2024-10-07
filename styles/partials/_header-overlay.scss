@@ -68,5 +68,12 @@
 }
 #header-overlay__cross:hover{
     cursor: pointer;
+    color: black;
+}
+
+@media screen  and (max-width:400px){
+    .header-overlay__link{
+        font-size: 30px;
+    }
 }
 }
