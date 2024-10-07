@@ -55,4 +55,26 @@
 .header__link:hover::before{
     height: 140%;
 }
+#header__burger-menu{
+    display: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: end;
+    padding: 0 30px;
 }
+
+@media screen and (max-width:800px){
+    .header__list{
+        display: none;
+    }
+    #header__burger-menu{
+        display: block;
+        
+    }
+}
+
+
+
+}
+
+
