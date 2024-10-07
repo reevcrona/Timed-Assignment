@@ -7,7 +7,7 @@ form{
     width:100%;
     max-width: 653px;
     min-height: 63px;
-    background-color: white;
+    background-color: #FFFFFF;
     display: flex;
     padding: 2px;
     margin-top: 48px;
@@ -33,6 +33,10 @@ form{
     min-height: 63px;
     background-color: #5474FD;
     border:none;
+    
+}
+.button-text{
+    display: inline-block;
     color: #FFFFFF;
     text-align: center;
     font-family: 'Aleo';
@@ -41,4 +45,11 @@ form{
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 1.4px;
+    width: 92px;
+    min-height: 26px;
+    
+}
+#button-icon{
+    color: #FFFFFF;
+    font-size: 14px;
 }
