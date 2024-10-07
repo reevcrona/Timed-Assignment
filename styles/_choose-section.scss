@@ -14,6 +14,7 @@
     &__text-container{
         width: 100%;
         max-width: 560px;
+        padding: 0 30px;
     }
 .choose__main-container{
     display: flex;
@@ -21,6 +22,8 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1150px;
+    padding: 0 30px;
+   
 }
 .choose__header{
     font-family: 'Aleo';

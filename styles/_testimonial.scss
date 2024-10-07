@@ -13,6 +13,7 @@
 
 .testimonial__content-container{
     display: flex;
+    padding: 0 30px;
 }
 .testimonial__header{
     font-family: 'Aleo';
@@ -69,4 +70,21 @@
     color: #5474FD;
     margin-right: 10px;
 }
+.testimonial__content-img{
+    width: 100%;
+    max-width: 445px;
+    min-height: 284px;
+}
+@media screen  and (max-width:1150px){
+    .testimonial__content-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .testimonial__header{
+        margin-bottom: 30px;
+    }
+}
+
 }
