@@ -1,4 +1,4 @@
-.choose-section{
+.choose{
     background-image: url(/images/choose-bg.png);
     width: 100%;
     max-width: 1773px;
@@ -6,4 +6,68 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    &__text-container{
+        width: 100%;
+        max-width: 560px;
+    }
+.choose__main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+}
+.choose__header{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.choose__text{  
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+.text-one{
+    margin-bottom: 25px;
+}
+.choose__button{
+    background: linear-gradient(135deg, #496BFE 20%, #5474FD 80%);
+    color: #FFFFFF;
+    width: 228px;
+    min-height: 63px;
+    border: none;
+    margin-top: 45px;
+}
+
+.choose__image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+.choose__img-one{
+    width: 100%;
+    max-width: 350px;
+    align-self: flex-start;
+}
+.choose__img-two{
+    width: 100%;
+    max-width: 350px;
+    align-self: center;
+}
+
 }
