@@ -51,8 +51,12 @@
     min-height: 63px;
     border: none;
     margin-top: 45px;
+    transition: transform 0.2s ease-in;
 }
-
+.choose__button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 .choose__image-container{
     display: flex;
     flex-direction: column;

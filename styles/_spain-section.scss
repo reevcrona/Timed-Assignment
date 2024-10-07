@@ -95,6 +95,11 @@
     background: linear-gradient(40deg, #496BFE 40%, #5474FD 20%);
     border: none;
     margin-top: 46px;
+    transition: transform 0.2s ease-in;
+}
+.spain__button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 .invis-container{
     width: 100%;
