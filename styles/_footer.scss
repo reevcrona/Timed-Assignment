@@ -6,5 +6,66 @@
     max-width: 1773px;
     min-height: 271px;
     background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 53px;
+}
+.footer__header{ 
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.footer__subheader{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.footer__logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 29px;
+}
+.footer__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 166px;
+    min-height: 16px;
+    padding: 0;
+    margin: 0;
+}
+.footer__li{
+    list-style: none;
+}
+.footer__link{
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
 }
