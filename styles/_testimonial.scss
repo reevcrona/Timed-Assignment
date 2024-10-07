@@ -1,0 +1,72 @@
+.testimonial{
+    width: 100%;
+    max-width: 1770px;
+    min-height: 731px;
+    background-image: url(/images/testimonial-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.testimonial__content-container{
+    display: flex;
+}
+.testimonial__header{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 390px;
+    min-height: 26px;
+    margin-bottom: 91px;
+}
+
+.testimonial__text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333333;
+    width: 100%;
+    max-width: 668px;
+    min-height: 287px;
+    padding: 0 31px;
+}
+.testimonial__subheader{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FEFEFE;
+    padding: 0 31px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.testimonial__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    width: 100%;
+    max-width: 581px;
+    padding: 0 31px;
+    margin: 0;
+}
+#quote{
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #5474FD;
+    margin-right: 10px;
+}
+}
