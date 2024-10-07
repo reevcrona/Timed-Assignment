@@ -37,6 +37,22 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
-}  
-
+    position: relative;
+    z-index: 1;
+}
+.header__link::before{
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 130%;
+    height: 0;
+    background-color: #2B3E85;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+} 
+.header__link:hover::before{
+    height: 140%;
+}
 }

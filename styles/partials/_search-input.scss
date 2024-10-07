@@ -33,7 +33,11 @@ form{
     min-height: 63px;
     background-color: #5474FD;
     border:none;
-    
+    transition: background-color 0.2s ease-in-out;
+}
+.search-button:hover{
+    cursor: pointer;
+    background-color: #2B3E85;
 }
 .button-text{
     display: inline-block;
