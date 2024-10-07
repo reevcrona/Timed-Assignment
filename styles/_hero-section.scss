@@ -1,5 +1,5 @@
 @import "partials/search-input";
-
+@import "partials/header";
 .hero{
     width: 100%;
     max-width: 1773px;
@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
     &__text-container{
         width: 100%;
         max-width: 372px;
@@ -42,5 +43,24 @@
     margin: 0;
 }
 
-
+.scroll-down-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.scroll-down-text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+    margin: 0;
+}
+#arrow-down{
+    color: #FFFFFF;
+} 
 }
